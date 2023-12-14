@@ -1,0 +1,71 @@
+#kontejnerlistica{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.listic{
+    margin: 3px;
+    background-color: white;
+    border: 2px solid red;
+    width:110px;
+}
+.kontejnerBrojeva{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.kontejnerBrojeva button{
+    margin: 3px;
+    background-color: white;
+}
+.kontejnerBrojeva button:hover, .active{
+    background-color: #39A7FF!important;
+}
+.indexListica{
+    text-align: center;
+    background-color: red;
+    color:white;
+    font-size: 23px;
+}
+.brojUnetihBrojeva{
+    text-align: center;
+    margin:0 3px;
+    border-bottom: 1px solid red;
+}
+.kontejnerDugmica{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.dugmeQP, .dugmeX{
+    width: 35px;
+}
+.dugmeX{
+    background-color: red;
+}
+.dugmeQP{
+    background-color: blue;
+}
+.dugmeX:hover{
+    background-color: blue;
+}
+.dugmeQP:hover{
+    background-color: red;
+}
+.igra{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.igra button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+.dugmeQP, .dugmeX
+{
+    border:none;
+}
+.malapolja
+{
+    border:1px solid red;
+}
