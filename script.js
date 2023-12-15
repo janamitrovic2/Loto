@@ -52,8 +52,8 @@ for(let i = 0; i < 10; i++){
 
 }
 
-let kombinacije = [];
-let brojunetihbrojeva = [];
+let kombinacije = []; //matrica od 10 nizova za svaki listoc - cuva sppod o svakom oju
+let brojunetihbrojeva = []; //niz od 10 clanova - duzina komibinacije
 
 for(let i = 0; i < 10; i++){
     kombinacije[i] = [];
